@@ -1,0 +1,32 @@
+
+
+.navbar-homepage {
+	background-color: #3B5999;
+	color: #fff;
+}
+
+.navbar-header h2 {
+	color: #fff;
+}
+
+.sign-in-form {
+	vertical-align: center;
+	line-height: 20px;
+}
+
+.login-btn {
+	font-size: 15px;
+	text-align: center;
+	width: 65px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+    -webkit-box-shadow: 4px 4px 0px #000;
+    -moz-box-shadow: 4px 4px 0px #000;
+    box-shadow: 4px 4px 0px #000;
+    font-family: Arial;
+    color: #000;
+    background: #9DC6F4;
+    text-decoration: none;
+    margin-left: 5px;
+}
