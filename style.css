@@ -3,13 +3,58 @@ div {
 	border: 1px solid #ddd;
 }
 
-.navbar-sign-in {
+body {
+	font-family: helvetica sans-serif;
+}
+
+.navbar-homepage {
 	background-color: #237BDD;
+	height: 70px;
+	border-bottom: 3px solid black;
+}
+
+.logo-container {
+	display: inline-block;
+	line-height: 70px;
 }
 
 .logo-container h2 {
-	font-size: 24px;
+	font-size: 45px;
 	color: #fff;
 	vertical-align: middle;
-	padding-left: 50px;
+	padding-left: 40px;
+}
+
+.sign-in-container {
+	float: right;
+	padding-right: 10px;
+	line-height: 70px;
+}
+
+.sign-in-container .email {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.sign-in-container .password {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.login-button {
+	font-size: 15px;
+	text-align: center;
+	width: 55px;
+	line-height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+    -webkit-box-shadow: 4px 4px 0px #000;
+    -moz-box-shadow: 4px 4px 0px #000;
+    box-shadow: 4px 4px 0px #000;
+    font-family: Arial;
+    color: #000;
+    background: #9DC6F4;
+    text-decoration: none;
 }
