@@ -1,5 +1,9 @@
 /**Navbar Styles**/
 
+.navbar {
+	margin: 0px;
+}
+
 .navbar-homepage {
 	background-color: #3B5999;
 	color: #fff;
@@ -36,7 +40,7 @@
     margin-left: 5px;
 }
 
-.navbar-text {
+.navbar-default .navbar-text {
 	color: #fff;
 	margin-left:  10px;
 	margin-right: 10px;
@@ -63,10 +67,6 @@
 .profile-text>h1 {
     font-weight: 700;
     font-size:12px;
-}
-
-.profile-nav {
-	border:  1px solid black;
 }
 
 p .pull-right {
