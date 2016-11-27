@@ -50,17 +50,26 @@
     margin-bottom: 10px;
 }
 
-.profile-pic
-{
+.profile-pic{
     margin: -90px 10px 0px 50px;
     z-index: 9;
     width: 20%; 
 }
 
+
 @media (max-width:768px)
 {
     
-.profile-text>h1{
+.profile-text>h1 {
     font-weight: 700;
-    font-size:16px;
+    font-size:12px;
 }
+
+.profile-nav {
+	border:  1px solid black;
+}
+
+p .pull-right {
+	text-align:  right;
+}
+
