@@ -1,4 +1,4 @@
-
+/**Navbar Styles**/
 
 .navbar-homepage {
 	background-color: #3B5999;
@@ -34,4 +34,33 @@
     background: #9DC6F4;
     text-decoration: none;
     margin-left: 5px;
+}
+
+.navbar-text {
+	color: #fff;
+	margin-left:  10px;
+	margin-right: 10px;
+}
+
+/*Profile Style*/
+
+.cover-pic img.image-lg{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.profile-pic
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+}
+
+@media (max-width:768px)
+{
+    
+.profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
 }
