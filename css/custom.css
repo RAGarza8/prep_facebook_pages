@@ -9,6 +9,11 @@
 	color: #fff;
 }
 
+.navbar-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .sign-in-form {
 	vertical-align: center;
 	line-height: 20px;
