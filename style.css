@@ -1,0 +1,15 @@
+
+div {
+	border: 1px solid #ddd;
+}
+
+.navbar-sign-in {
+	background-color: #237BDD;
+}
+
+.logo-container h2 {
+	font-size: 24px;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 50px;
+}
